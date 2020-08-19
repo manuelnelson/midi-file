@@ -1,2 +1,4 @@
-exports.parseMidi = require('./lib/midi-parser')
-exports.writeMidi = require('./lib/midi-writer')
+import {writeMidi} from './lib/midi-writer'
+import {parseMidi} from './lib/midi-parser'
+
+export {writeMidi, parseMidi}
